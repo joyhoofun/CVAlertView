@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C56531E01BE3742D00DD97AA /* screensnap1.png in Resources */ = {isa = PBXBuildFile; fileRef = C56531DF1BE3742D00DD97AA /* screensnap1.png */; };
+		C56531E21BE376B400DD97AA /* screennap1.png in Resources */ = {isa = PBXBuildFile; fileRef = C56531E11BE376B400DD97AA /* screennap1.png */; };
 		C5A544E81BE05FD000CE47D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A544E71BE05FD000CE47D2 /* main.m */; };
 		C5A544EB1BE05FD000CE47D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A544EA1BE05FD000CE47D2 /* AppDelegate.m */; };
 		C5A544EE1BE05FD000CE47D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A544ED1BE05FD000CE47D2 /* ViewController.m */; };
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C56531DF1BE3742D00DD97AA /* screensnap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screensnap1.png; sourceTree = "<group>"; };
+		C56531E11BE376B400DD97AA /* screennap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screennap1.png; sourceTree = "<group>"; };
 		C5A544E31BE05FD000CE47D2 /* CommonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A544E71BE05FD000CE47D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5A544E91BE05FD000CE47D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		C56531DD1BE373FD00DD97AA /* Screensnaps */ = {
 			isa = PBXGroup;
 			children = (
-				C56531DF1BE3742D00DD97AA /* screensnap1.png */,
+				C56531E11BE376B400DD97AA /* screennap1.png */,
 			);
 			path = Screensnaps;
 			sourceTree = "<group>";
@@ -271,7 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5A544F91BE05FD000CE47D2 /* LaunchScreen.storyboard in Resources */,
-				C56531E01BE3742D00DD97AA /* screensnap1.png in Resources */,
+				C56531E21BE376B400DD97AA /* screennap1.png in Resources */,
 				C5A544F61BE05FD000CE47D2 /* Assets.xcassets in Resources */,
 				C5A544F11BE05FD000CE47D2 /* Main.storyboard in Resources */,
 			);
