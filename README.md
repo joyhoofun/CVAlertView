@@ -8,4 +8,4 @@ CVAlertView *alertView = [[CVAlertView alloc] initWithTitle:@"新功能" message
 2.调用showAlertView
 [alertView showAlertView];
 
-<img src="https://raw.githubusercontent.com/joyhoofun/CVAlertView/master/CommonView/Screensnaps/screensnap1.png">
+<img width = '250'  src=https://raw.githubusercontent.com/joyhoofun/CVAlertView/master/CommonView/Screensnaps/screennap1.png>
