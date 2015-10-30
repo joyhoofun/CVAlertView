@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C56531E01BE3742D00DD97AA /* screensnap1.png in Resources */ = {isa = PBXBuildFile; fileRef = C56531DF1BE3742D00DD97AA /* screensnap1.png */; };
 		C5A544E81BE05FD000CE47D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A544E71BE05FD000CE47D2 /* main.m */; };
 		C5A544EB1BE05FD000CE47D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A544EA1BE05FD000CE47D2 /* AppDelegate.m */; };
 		C5A544EE1BE05FD000CE47D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A544ED1BE05FD000CE47D2 /* ViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C56531DF1BE3742D00DD97AA /* screensnap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screensnap1.png; sourceTree = "<group>"; };
 		C5A544E31BE05FD000CE47D2 /* CommonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A544E71BE05FD000CE47D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5A544E91BE05FD000CE47D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,8 +56,8 @@
 		C5A5450A1BE05FD000CE47D2 /* CommonViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A5450E1BE05FD000CE47D2 /* CommonViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonViewUITests.m; sourceTree = "<group>"; };
 		C5A545101BE05FD000CE47D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5A5451C1BE0602000CE47D2 /* CVAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVAlertView.h; sourceTree = "<group>"; };
-		C5A5451D1BE0602000CE47D2 /* CVAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVAlertView.m; sourceTree = "<group>"; };
+		C5A5451C1BE0602000CE47D2 /* CVAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVAlertView.h; path = ../CVAlertView.h; sourceTree = "<group>"; };
+		C5A5451D1BE0602000CE47D2 /* CVAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVAlertView.m; path = ../CVAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C56531DD1BE373FD00DD97AA /* Screensnaps */ = {
+			isa = PBXGroup;
+			children = (
+				C56531DF1BE3742D00DD97AA /* screensnap1.png */,
+			);
+			path = Screensnaps;
+			sourceTree = "<group>";
+		};
+		C56531DE1BE373FD00DD97AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5A5451C1BE0602000CE47D2 /* CVAlertView.h */,
+				C5A5451D1BE0602000CE47D2 /* CVAlertView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C5A544DA1BE05FD000CE47D2 = {
 			isa = PBXGroup;
 			children = (
@@ -106,9 +125,9 @@
 		C5A544E51BE05FD000CE47D2 /* CommonView */ = {
 			isa = PBXGroup;
 			children = (
+				C56531DD1BE373FD00DD97AA /* Screensnaps */,
+				C56531DE1BE373FD00DD97AA /* View */,
 				C5A544E91BE05FD000CE47D2 /* AppDelegate.h */,
-				C5A5451C1BE0602000CE47D2 /* CVAlertView.h */,
-				C5A5451D1BE0602000CE47D2 /* CVAlertView.m */,
 				C5A544EA1BE05FD000CE47D2 /* AppDelegate.m */,
 				C5A544EC1BE05FD000CE47D2 /* ViewController.h */,
 				C5A544ED1BE05FD000CE47D2 /* ViewController.m */,
@@ -252,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5A544F91BE05FD000CE47D2 /* LaunchScreen.storyboard in Resources */,
+				C56531E01BE3742D00DD97AA /* screensnap1.png in Resources */,
 				C5A544F61BE05FD000CE47D2 /* Assets.xcassets in Resources */,
 				C5A544F11BE05FD000CE47D2 /* Main.storyboard in Resources */,
 			);
@@ -506,6 +526,7 @@
 				C5A545151BE05FD000CE47D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5A545161BE05FD000CE47D2 /* Build configuration list for PBXNativeTarget "CommonViewTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +535,7 @@
 				C5A545181BE05FD000CE47D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5A545191BE05FD000CE47D2 /* Build configuration list for PBXNativeTarget "CommonViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +544,7 @@
 				C5A5451B1BE05FD000CE47D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
